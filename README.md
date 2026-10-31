@@ -46,12 +46,12 @@ Applying statistical thresholds ($\vert{}\log_2\text{FC}\vert{} \ge 1.5$ and adj
 
 ### Paired Volcano Plot
 <p align="center">
-  <img src="results/volcano_plot_GSE79973.png" alt="Volcano Plot" width="800">
+  <img src="gastric-cancer-biomarkers/results/volcano_plot_GSE79973.png" alt="Volcano Plot" width="800">
 </p>
 
 ### Clustered Expression Heatmap
 <p align="center">
-  <img src="results/heatmap_top_DEGs_GSE79973.png" alt="Heatmap" width="800">
+  <img src="gastric-cancer-biomarkers/results/heatmap_top_DEGs_GSE79973.png" alt="Heatmap" width="800">
 </p>
 
 ---
