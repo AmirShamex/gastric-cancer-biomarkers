@@ -72,3 +72,23 @@ Rscript normalize_affy_geo.R GSE79973
 
 # 2. Run paired differential expression and generate plots
 Rscript diff_expr_limma.R
+```
+
+
+## Conference Citations
+
+If utilizing or adapting these analytical pipelines, please cite the corresponding conference presentations:
+
+**Bahrami, B.**, **Shamekhi, S. A.**, & **Tohidfar, M.** (2024, October 23–25). *Unveiling Potential Biomarkers for Gastric Cancer Through Bioinformatics Approaches* [Oral Presentation]. Second International Congress of Cancer Genomics (CGC2024), Tehran, Iran. Certificate No: 40321102.
+
+
+---
+
+## License & Contact
+
+* **License:** Distributed under the [MIT License](LICENSE).
+* **Author:** Seyed Amirhossein Shamekhi
+* **Affiliation:** Department of Microbiology and Microbial Biotechnology, Shahid Beheshti University, Tehran, Iran
+* **GitHub:** [@AmirShamex](https://github.com/AmirShamex)
+* **LinkedIn:** [Amirhossein Shamekhi](https://linkedin.com/in/amirshamekhi)
+* **Email:** [amirhshamekhi@gmail.com](mailto:amirhshamekhi@gmail.com)
