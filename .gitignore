@@ -1,0 +1,23 @@
+# R temporary files
+.Rhistory
+.RData
+.Rproj.user/
+
+# Large microarray data
+*.tar
+*.tar.gz
+*.cel
+*.CEL
+*.gz
+data/*
+!data/.gitkeep
+
+# Keep result figures
+results/*
+!results/.gitkeep
+!results/*.png
+!results/*.jpg
+
+# OS
+.DS_Store
+Thumbs.db
