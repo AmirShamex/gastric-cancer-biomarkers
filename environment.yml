@@ -1,0 +1,13 @@
+name: gastric-biomarkers-env
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - r-base>=4.2.0
+  - bioconductor-affy
+  - bioconductor-geoquery
+  - bioconductor-limma
+  - r-tidyverse
+  - r-pheatmap
+  - r-ggrepel
