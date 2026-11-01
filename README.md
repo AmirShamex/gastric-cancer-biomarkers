@@ -10,7 +10,7 @@ An automated R pipeline for raw Affymetrix HG-U133 Plus 2.0 microarray preproces
 
 ## Scientific Context
 
-This pipeline characterizes transcriptional alterations and candidate diagnostic/prognostic biomarker signatures in gastric adenocarcinoma from NCBI GEO accession **GSE79973**. The cohort contains $N = 20$ arrays representing **10 matched patient pairs** of primary gastric adenocarcinoma (`C`) versus adjacent non-cancerous mucosa (`N`).
+This pipeline characterizes transcriptional alterations and candidate diagnostic/prognostic biomarker signatures in gastric adenocarcinoma from NCBI GEO accession **GSE79973**. The cohort contains N = 20 arrays representing **10 matched patient pairs** of primary gastric adenocarcinoma (`C`) versus adjacent non-cancerous mucosa (`N`).
 
 Findings from this analysis were selected for an **Oral Presentation** at the *Second International Congress of Cancer Genomics (CGC2024)* (Certificate No: 40321102).
 
@@ -27,18 +27,18 @@ Findings from this analysis were selected for an **Oral Presentation** at the *S
 
 ## Candidate Biomarkers
 
-Applying statistical thresholds ($\vert{}\log_2\text{FC}\vert{} \ge 1.5$ and adjusted $p$-value $< 0.05$) revealed significant tumor-specific dysregulation:
+Applying statistical thresholds (|Log2 FC|≥ 1.5 and adjusted p-value < 0.05) revealed significant tumor-specific dysregulation:
 
-| Probe ID | Gene Symbol | Regulation | $\log_2$ Fold Change | Adjusted $p$-value | Clinical / Functional Role |
+| Probe ID | Gene Symbol | Regulation | log_2 Fold Change | Adjusted p-value | Clinical / Functional Role |
 | :--- | :--- | :---: | :---: | :---: | :--- |
-| **`227140_at`** | **INHBA** | Upregulated | **+4.87** | $8.07 \times 10^{-3}$ | Activin A subunit; TGF-$\beta$ signaling pathway, invasiveness |
-| **`217428_s_at`**| **COL10A1** | Upregulated | **+4.48** | $7.67 \times 10^{-3}$ | Collagen type X; desmoplasia, extracellular matrix remodeling |
-| **`226930_at`** | **FNDC1** | Upregulated | **+4.35** | $2.14 \times 10^{-2}$ | Fibronectin type III domain; drives EMT and metastasis |
-| **`37892_at`**  | **COL11A1** | Upregulated | **+4.11** | $2.44 \times 10^{-2}$ | Hallmark marker of aggressive cancer-associated fibroblasts (CAFs) |
-| **`238222_at`** | **GKN2** | Downregulated | **-8.23** | $3.68 \times 10^{-2}$ | Gastrokine 2; mucosal integrity, lost early in carcinogenesis |
-| **`220191_at`** | **GKN1** | Downregulated | **-8.19** | $3.68 \times 10^{-2}$ | Gastrokine 1; gastric mucosal differentiation marker |
-| **`207546_at`** | **ATP4B** | Downregulated | **-7.08** | $1.53 \times 10^{-2}$ | $\text{H}^+/\text{K}^+$ ATPase subunit; indicates loss of parietal cells |
-| **`207033_at`** | **GIF** | Downregulated | **-6.99** | $1.92 \times 10^{-2}$ | Gastric intrinsic factor; depletion of specialized mucosal cells |
+| **`227140_at`** | **INHBA** | Upregulated | **+4.87** | 8.07 \times 10^{-3} | Activin A subunit; TGF-beta signaling pathway, invasiveness |
+| **`217428_s_at`**| **COL10A1** | Upregulated | **+4.48** | 7.67 \times 10^{-3} | Collagen type X; desmoplasia, extracellular matrix remodeling |
+| **`226930_at`** | **FNDC1** | Upregulated | **+4.35** | 2.14 \times 10^{-2} | Fibronectin type III domain; drives EMT and metastasis |
+| **`37892_at`**  | **COL11A1** | Upregulated | **+4.11** | 2.44 \times 10^{-2} | Hallmark marker of aggressive cancer-associated fibroblasts (CAFs) |
+| **`238222_at`** | **GKN2** | Downregulated | **-8.23** | 3.68 \times 10^{-2} | Gastrokine 2; mucosal integrity, lost early in carcinogenesis |
+| **`220191_at`** | **GKN1** | Downregulated | **-8.19** | 3.68 \times 10^{-2} | Gastrokine 1; gastric mucosal differentiation marker |
+| **`207546_at`** | **ATP4B** | Downregulated | **-7.08** | 1.53 \times 10^{-2} | \text{H}^+/\text{K}^+ ATPase subunit; indicates loss of parietal cells |
+| **`207033_at`** | **GIF** | Downregulated | **-6.99** | 1.92 \times 10^{-2} | Gastric intrinsic factor; depletion of specialized mucosal cells |
 
 ---
 
